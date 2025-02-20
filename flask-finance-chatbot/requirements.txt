@@ -1,0 +1,6 @@
+# Install appropriate requirements based on environment
+# For development: pip install -r app/requirements/development.txt
+# For production: pip install -r app/requirements/production.txt
+# For testing: pip install -r app/requirements/testing.txt
+
+-r app/requirements/base.txt
